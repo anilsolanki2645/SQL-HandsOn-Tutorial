@@ -49,3 +49,7 @@ REVOKE SELECT ON database_name.* FROM 'user'@'hostname' GRANT OPTION;
 -- 2.6 Revoke Proxy Privileges:
 REVOKE PROXY ON 'user'@'hostname' FROM 'proxied_user'@'proxied_hostname';
 
+-- -------------------------------- [3] COMMAND For MySQL User -------------------------------------
+
+-- 3.1 CREATE A USER in MySQL:
+CREATE USER 'anil'@'localhost' IDENTIFIED BY 'password';	
