@@ -59,3 +59,6 @@ ALTER USER 'anil'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password
 
 -- 3.3 Grant PRIVILEGES WITH GRANT OPTION
 GRANT ALL PRIVILEGES ON *.* TO 'anil'@'localhost' WITH GRANT OPTION;
+
+--3.4 Flush PRIVILEGES
+FLUSH PRIVILEGES;
