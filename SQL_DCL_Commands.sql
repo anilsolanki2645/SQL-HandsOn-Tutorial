@@ -56,3 +56,6 @@ CREATE USER 'anil'@'localhost' IDENTIFIED BY 'password';
 
 -- 3.2 Change User Password
 ALTER USER 'anil'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+-- 3.3 Grant PRIVILEGES WITH GRANT OPTION
+GRANT ALL PRIVILEGES ON *.* TO 'anil'@'localhost' WITH GRANT OPTION;
