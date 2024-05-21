@@ -53,3 +53,6 @@ REVOKE PROXY ON 'user'@'hostname' FROM 'proxied_user'@'proxied_hostname';
 
 -- 3.1 CREATE A USER in MySQL:
 CREATE USER 'anil'@'localhost' IDENTIFIED BY 'password';	
+
+-- 3.2 Change User Password
+ALTER USER 'anil'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
