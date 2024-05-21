@@ -29,5 +29,5 @@ TCL commands are used to manage transactions within the database. Transactions e
 To get started, simply clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/SQL-Commands-Practice.git
+git clone https://github.com/anilsolanki2645/SQL-HandsOn-Tutorial.git
 
