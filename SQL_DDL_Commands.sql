@@ -169,6 +169,9 @@ SELECT * FROM DEMO;
 -- 3.2 DROP A DUMMY_DEMO TABLE
 DROP TABLE DUMMY_DEMO;
 
+-- 3.3 Drop Database DUMMY_DB
+DROP DATABASE DUMMY_DB;
+
 
 -- -------------------------------- [4] TRUNCATE COMMAND -------------------------------------
 
