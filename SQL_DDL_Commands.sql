@@ -156,36 +156,6 @@ MODIFY COLUMN DEMO_TEMP_1 INT UNIQUE;
 ALTER TABLE DEMO_LOC
 DROP INDEX DEMO_TEMP_1;
 
--- -------------------------------- [3] DROP COMMAND -------------------------------------
-
--- NOTE : add one dummy table before drop it 
-
--- 3.1 Create a Duplicate table using Table AND Create one dummy database
-CREATE DATABASE DUMMY_DB;
-
-CREATE TABLE DUMMY_DEMO AS
-SELECT * FROM DEMO;
-
--- 3.2 DROP A DUMMY_DEMO TABLE
-DROP TABLE DUMMY_DEMO;
-
--- 3.3 Drop Database DUMMY_DB
-DROP DATABASE DUMMY_DB;
-
--- 3.4 DROP SOME MORE 
-
-DROP INDEX index_name ON table_name;
-
-DROP VIEW view_name;
-
-DROP PROCEDURE procedure_name;
-
-DROP FUNCTION function_name;
-
-DROP TRIGGER trigger_name;
-
-DROP USER user_name;
-
 
 -- -------------------------------- [4] TRUNCATE COMMAND -------------------------------------
 
