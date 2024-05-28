@@ -166,6 +166,9 @@ CREATE DATABASE DUMMY_DB;
 CREATE TABLE DUMMY_DEMO AS
 SELECT * FROM DEMO;
 
+-- 3.2 DROP A DUMMY_DEMO TABLE
+DROP TABLE DUMMY_DEMO;
+
 
 -- -------------------------------- [4] TRUNCATE COMMAND -------------------------------------
 
