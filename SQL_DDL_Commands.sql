@@ -172,6 +172,19 @@ DROP TABLE DUMMY_DEMO;
 -- 3.3 Drop Database DUMMY_DB
 DROP DATABASE DUMMY_DB;
 
+-- 3.4 DROP SOME MORE 
+
+DROP INDEX index_name ON table_name;
+
+DROP VIEW view_name;
+
+DROP PROCEDURE procedure_name;
+
+DROP FUNCTION function_name;
+
+DROP TRIGGER trigger_name;
+
+DROP USER user_name;
 
 -- -------------------------------- [4] TRUNCATE COMMAND -------------------------------------
 
