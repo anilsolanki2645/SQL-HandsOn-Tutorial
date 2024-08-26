@@ -154,7 +154,7 @@ MODIFY COLUMN DEMO_TEMP_1 INT UNIQUE;
 
 -- 2.3.4 Modify Column Constraints: (Remove Unique Constraints)
 ALTER TABLE DEMO_LOC
-DROP INDEX DEMO_TEMP_5;
+DROP INDEX DEMO_TEMP_1;
 
 -- -------------------------------- [3] DROP COMMAND -------------------------------------
 
