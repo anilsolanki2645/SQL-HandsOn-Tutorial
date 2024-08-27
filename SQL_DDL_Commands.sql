@@ -178,7 +178,7 @@ DROP INDEX index_name ON table_name;
 
 DROP VIEW view_name;
 
-
+DROP PROCEDURE procedure_name;
 
 DROP FUNCTION function_name;
 
