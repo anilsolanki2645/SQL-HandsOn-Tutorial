@@ -189,4 +189,4 @@ DROP USER user_name;
 -- -------------------------------- [4] TRUNCATE COMMAND -------------------------------------
 
 -- 4.1 TRUNCATE TABLE 
-TRUNCATE TABLE DUMMY;
+TRUNCATE TABLE DUMMY_DEMO;
