@@ -130,9 +130,7 @@ ALTER TABLE DEMO_LOC
 
 -- -------------------------------- (2.2) Remove -----------------------------------
 
--- 2.2.1 Remove DEMO_TEMP_2 Columns from DEMO_LOC TABLE
-ALTER TABLE DEMO_LOC
-    DROP COLUMN DEMO_TEMP_2;
+
 
 -- 2.2.2 Remove Column Constraints: (Remove Unique Constraints)
 ALTER TABLE DEMO_LOC
